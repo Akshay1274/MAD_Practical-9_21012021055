@@ -9,6 +9,7 @@ import android.widget.ImageView
 class MainActivity : AppCompatActivity() {
     lateinit var alarmamimation:AnimationDrawable
     lateinit var heartanimation:AnimationDrawable
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
